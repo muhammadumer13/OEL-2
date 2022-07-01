@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: lightcoral;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  background-color: lightcoral;
+}
+
+.App-intro {
+  font-size: 14px;
+  color: white;
+}
+
+/* new css for car component */
+* {
+  box-sizing: border-box;
+  background: rgb(31, 29, 29);
+}
+ 
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 5%;
+}
+ 
+.App-header h2 {
+  background-color: aquamarine;
+  margin: 0;
+}
+ 
+.add-cars {
+  text-align: center;
+}
+ 
+.add-cars button {
+  background-color: lightcoral;
+  font-size: 14px;
+  border:none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+
+.add-cars button:hover{
+  background-color: rgb(255, 249, 249);
+  font-size: 16px;
+  border:none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+.car {
+  color: white;
+  font-size: 14px;
+  padding: 5px 25px 10px 25px;
+  max-width: 24%;
+  border: 1px solid #999;  
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* car form styles */
+ .car-add-title{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+ }
+.car-form {
+  color: white;
+  width: 500px;
+  margin: 0 auto;
+}
+ 
+.car-form input, .car-form textarea {
+  border: none;
+  background-color: white;
+  width: 500px;
+  font-size:14px;
+  padding: 5px;
+  margin: 5px;
+}
+ 
+.car-form button {
+  size: 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(224, 97, 97);
+  font-size: 14px;
+  padding: 8px;
+  margin: 10px 10px 30px 10px;
+}
+
+.car-form button:hover {
+  border: none;
+  color: black;
+  border-radius: 5px;
+  background-color:white;
+  font-size: 14px;
+  padding: 8px;
+  margin: 10px 10px 30px 10px;
+}
